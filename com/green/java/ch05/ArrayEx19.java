@@ -49,7 +49,7 @@ public class ArrayEx19 {
         System.out.println("총점");
 
         for (int i = 0; i < titles.length; i++) {
-            System.out.printf("%s: %d\n",titles[i], subjectScore[0]);
+            System.out.printf("%s: %d\n",titles[i], subjectScore[i]);
         }
     }
 }
