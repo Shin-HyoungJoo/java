@@ -10,6 +10,6 @@ public class ArrayQuiz11 {
         }
         double avg = (double) sum / numArr.length;
 
-        System.out.printf("avg: %.2f\n", avg);
+        System.out.printf("avg: %.2f\n", avg);          //  %,d = 1,000 2,000 ...
     }
 }

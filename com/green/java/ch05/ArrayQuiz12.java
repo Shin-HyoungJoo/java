@@ -27,4 +27,3 @@ public class ArrayQuiz12 {
         System.out.println(Arrays.toString(numArr));
     }
 }
-
