@@ -12,8 +12,8 @@ public class FlowEx25Method {
     }
 
     public static int sumStringNumber(String temp){
-        int sum = 0;
         int num = Integer.parseInt(temp);
+        int sum = 0;
 
         while (num != 0) {
             sum += num % 10;

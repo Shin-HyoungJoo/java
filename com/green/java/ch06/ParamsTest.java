@@ -16,9 +16,7 @@ public class ParamsTest {
     }
 
     static void changeNum(int num) {
-
         num = 20;
-
     }
 
     static void changeNum2(NumberBox nb2) { //NumberBox nb2 ->변수X 객체O

@@ -37,16 +37,19 @@ public class NumberBaseBallGame {
         System.out.println("[Game Start]");
 
         int count = 0;
+        int[] myArr = new int[NUMBER_COUNT];
+
         while (true) {
-           count++;
-            int[] myArr = new int[NUMBER_COUNT];
+            count++;
             for (int i = 0; i < NUMBER_COUNT; i++) {
                 System.out.printf("%d번 숫자 입력", i + 1);
                 myArr[i] = scan.nextInt();
             }
+
             int S = 0;
             int B = 0;
             int O = 0;
+
             for (int i = 0; i < NUMBER_COUNT; i++) {
                 for (int j = 0; j < NUMBER_COUNT; j++) {
                     if (numArr[j] == myArr[i]) {
