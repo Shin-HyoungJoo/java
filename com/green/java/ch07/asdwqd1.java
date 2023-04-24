@@ -4,6 +4,7 @@ class Solution {
     public int[] solution(String my_string) {
         int[] answer = new int[52];
         char[] Alphabat = new char[my_string.length()];
+        System.out.println(Alphabat.length);
 
         for(int i = 0; i < my_string.length(); i++){
             if(i==my_string.length()){
