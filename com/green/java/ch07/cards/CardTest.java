@@ -9,9 +9,9 @@ public class CardTest {
         cd.openCards();
         System.out.println("---------");
 
-        for (int i = 0; i < cd.cards.length; i++) {
-            cd.pick();
-        }
+//        for (int i = 0; i < cd.cards.length; i++) {
+//            cd.pick();
+//        }
 
         cd.pick();
 
