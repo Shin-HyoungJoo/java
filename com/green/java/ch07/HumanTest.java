@@ -2,7 +2,7 @@ package com.green.java.ch07;
 /*
     private 멤버필드에 값을 대입하고 추출.
     <값 주입>
-    1. 생성자
+    1. 생성자 (메소드이긴 함)
     2. setter 메소드
 
     <값 추출>

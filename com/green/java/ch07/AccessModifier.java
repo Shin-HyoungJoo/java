@@ -8,7 +8,7 @@ public class AccessModifier {
     protected, = 같은 패키지, 패키지 달라도 상속관계면 접근
     public = 모두 접근 허용
 
-    클래스는 거의 다 public. 아주 간혹 디폴트 사용.
+    파일명과 똑같은 클래스만 public 붙일 수 있다. 나머지는 디폴트 사용.
      */
     public static void main(String[] args) {
         ModifierTest mt1 = new ModifierTest();

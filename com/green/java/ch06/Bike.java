@@ -9,9 +9,7 @@ public class Bike {
 //생성자가 하나라도 있으면 jvm이 넣어주지 않는다.
 //생성자 오버로딩시에 기본생성자가 있어야 에러가 뜨지 않는다.
 
-    public Bike() {     //기본 생성자
 
-    }
 
     public Bike(String brand, String model, int price) {
         this.brand = brand;
@@ -29,6 +27,10 @@ public class Bike {
         this.brand = bike.brand;
         this.model = bike.model;
         this.price = bike.price;
+    }
+
+    public Bike() {
+
     }
 
     void drive() {
