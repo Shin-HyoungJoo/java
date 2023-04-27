@@ -10,5 +10,21 @@ public class MyArrayListTest {
 
         System.out.println(myList);
 
+        System.out.println(myList.size());
+
+        int v1 = myList.get(1);
+
+        for (int i = 0; i < myList.size(); i++) {
+            System.out.println(myList.get(i));
+        }
+
+        System.out.println("-------------------");
+
+        int sum = 0;
+        for (int i = 0; i < myList.size(); i++) {
+            sum += myList.get(i);
+        }
+
+        System.out.printf("sum: %d", sum);
     }
 }

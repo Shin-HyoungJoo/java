@@ -3,7 +3,7 @@ package com.green.java.ch07.arraylist;
 import java.util.ArrayList;
 
 public class ArrayListStudy1 {
-    public static void main(String[] args) {//<> 래퍼클래스
+    public static void main(String[] args) {//<>는 래퍼클래스
         //
         int a = 10;
         Integer a2 = a;
@@ -21,6 +21,6 @@ public class ArrayListStudy1 {
         list.add(13);
 
         int n1 = list.get(0);
-        System.out.println(list);   //toString 오버라이딩
+        System.out.println(list);   //toString 오버라이딩중
     }
 }
