@@ -13,7 +13,7 @@ public class ArrayListStudy1 {
 
         //제네릭 = 모든 데이터를 받는 오브젝트인 어레이 리스트를 특정 형으로
         //      지정해줌으로써 그 형의 데이터만 받게 만든다.
-        ArrayList<Integer>list = new ArrayList<>();   //ArrayList는 오브젝트 타입.
+        ArrayList<Integer> list = new ArrayList<>();   //ArrayList는 오브젝트 타입.
 //        list.add("11");
 //        list.add(10.1);
 //        list.add(true);

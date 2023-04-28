@@ -15,6 +15,5 @@ public class OperatorStudy9 {
         int k = 0;
         k += 1;
         System.out.println("k : " + k);
-
     }
 }
