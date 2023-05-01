@@ -5,8 +5,17 @@ public class ArrayStudy4 {
         int[] numArr = new int[]{10, 20, 30, 40, 50};
         int[] copyArr = numArr;
 
-        for(int i = 0; i < copyArr.length; i++){
+        for (int i = 0; i < copyArr.length; i++) {
             System.out.printf("copyArr[%d] : %d\n", i, copyArr[i]);
         }
+
+        int[] arr = {1, 2, 3};
+        printArr(arr);
+
+        printArr(new int[]{1, 2, 3});
+    }
+
+    public static void printArr(int[] arr) {
+
     }
 }

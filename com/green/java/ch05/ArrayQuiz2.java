@@ -5,7 +5,7 @@ public class ArrayQuiz2 {
         int[] rNumArr = new int[6];
 
         for (int i = 0; i < rNumArr.length; i++) {
-            int random = (int)(Math.random()*45)+1;
+            int random = (int)(Math.random()*45)+1;//0~0.999
 //            for (int j = 0; j < rNumArr.length; j++) {
 //                if (rNumArr[j]==random){
 //                    continue;
