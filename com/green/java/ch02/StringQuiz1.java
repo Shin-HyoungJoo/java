@@ -11,5 +11,6 @@ public class StringQuiz1 {
 
         System.out.println(fileNm);
         System.out.println(ext);
+
     }
 }

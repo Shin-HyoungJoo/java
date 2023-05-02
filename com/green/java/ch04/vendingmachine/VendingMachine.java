@@ -1,6 +1,9 @@
-package com.green.java.ch04;
+package com.green.java.ch04.vendingmachine;
+
+import java.util.ArrayList;
 
 public class VendingMachine {
+    ArrayList<Integer> purchaseList = new ArrayList<>();
     private int money;
     private String[] menuNames;
     private int[] menuPriceArr;
@@ -26,6 +29,23 @@ public class VendingMachine {
         int idx = drinkNumber - 1;
         System.out.printf("%s를 구매하였습니다.\n", menuNames[idx]);
         money -= menuPriceArr[idx];
+        purchaseList.add(idx);
+    }
+
+
+    public void showPurchaseList() {
+        if (purchaseList.size() == 0) {
+            System.out.println("제품을 구매하지 않았습니다.");
+            return;
+        }
+        int idx = purchaseList.get(0);
+        System.out.print(menuNames[idx]);
+
+        for (int i = 1; i < purchaseList.size(); i++) {
+            idx = purchaseList.get(i);
+            System.out.printf(", %s", menuNames[idx]);
+        }
+        System.out.println("을(를) 구매하였습니다.");
     }
 
     public void getMenuNames(String... menuNames) {

@@ -7,6 +7,7 @@ public class MyTvTest {
         mt.volumnUp();
         mt.volumnUp();
 
+
         System.out.println(mt.volumn);
 
         MyTv2 mt2 = new MyTv2();
