@@ -16,6 +16,5 @@ public class AccessModifier {
         mt1.num2 = 20;
         mt1.num3 = 30;
         mt1.num4 = 40;
-
     }
 }

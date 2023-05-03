@@ -22,6 +22,10 @@ public class CardDeck {
         }
     }
 
+    public void showSize() {
+        System.out.println(cardList.size());
+    }
+
     public void printCardList() {
         for (Card c : cardList) {
             System.out.println(c.getPattern() + c.getDenomination());
@@ -42,5 +46,11 @@ public class CardDeck {
                 return String.valueOf(num);
 
         }
+    }
+
+    public Card getCard() {
+        Card random = cardList.get((int) (Math.random() * cardList.size()));
+        cardList.remove(random);
+        return random;
     }
 }
