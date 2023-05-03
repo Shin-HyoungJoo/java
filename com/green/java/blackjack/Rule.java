@@ -14,7 +14,6 @@ public class Rule {
     }
 
     private int getDenomination(Card c) {
-        int number = 0;
         switch (c.getDenomination()) {
             case "A": return 1;
             case "J":
