@@ -18,4 +18,15 @@ public abstract class User {
     public List<Card> openCards() {
        return cardList;
     }
+
+    protected int getPointSum() {
+       return Rule.getScore(cardList);
+    }
+
+    public void showCards() {
+        System.out.println("[ 현재 보유 카드 목록 ]");
+        for (Card c : cardList) {
+            System.out.println(c);
+        }
+    }
 }

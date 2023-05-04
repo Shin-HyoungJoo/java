@@ -7,7 +7,7 @@ public class CardDeck {
     public static final String[] PATTERNS = {"♠", "♣", "♥", "◈"};
     public static final int CARD_COUNT = 13;
 
-    private List<Card> cardList;
+    private List<Card> cardList; //분석
 
     public List<Card> getCardList() {
         return cardList;

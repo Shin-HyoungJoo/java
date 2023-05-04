@@ -16,4 +16,8 @@ public class Card {
     public String getDenomination() {
         return denomination;
     }
+
+    public String toString() {
+        return ("Card { "+pattern + ", " + denomination + " }");
+    }
 }
