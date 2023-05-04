@@ -16,7 +16,7 @@ class ChildClass extends AbstractClassStudy1 {
 
     @Override
     void sum(int n1, int n2) {//추상 클래스에 있는 추상메소드는
-                              // 자식클래스에 무조건 구현해야한다. = 오버라이딩 필수
+                              // 자식클래스에 무조건 오버라이딩해서 구현해야한다.
         System.out.println("합계 : " + (n1 + n2));
     }
 }

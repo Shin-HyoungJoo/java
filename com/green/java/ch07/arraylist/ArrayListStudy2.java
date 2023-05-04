@@ -3,17 +3,24 @@ package com.green.java.ch07.arraylist;
 import java.util.ArrayList;
 
 public class ArrayListStudy2 {
-    public static void main(String[] args) {
-        ArrayList list = new ArrayList();
-        list.add(10);   //0번방
-        list.add(20);   //1번방
-        list.add("ddd");
+    public static void main(String[] args) {//<>는 래퍼클래스
+        //
+        int a = 10;
+        Integer a2 = a;
 
-        System.out.println(list.get(0));
-        System.out.println(list.get(1));
+        double d= 10.2;
+        Double d2 = d;
 
-        int n1 = (int)list.get(0);  //.get은 오브젝트 타입이라 다 넣을수 있지만
-        int n2 = (int)list.get(1);  //빼서 저장할때는 형변환 해줘야한다.(상속관련오류)
-        String str1 = (String)list.get(2);
+        //제네릭 = 모든 데이터를 받는 오브젝트인 어레이 리스트를 특정 형으로
+        //      지정해줌으로써 그 형의 데이터만 받게 만든다.
+        ArrayList<Integer> list = new ArrayList<>();   //ArrayList는 오브젝트 타입.
+//        list.add("11");
+//        list.add(10.1);
+//        list.add(true);
+        list.add(10);
+        list.add(13);
+
+        int n1 = list.get(0);
+        System.out.println(list);   //toString 오버라이딩중
     }
 }

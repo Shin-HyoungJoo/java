@@ -74,6 +74,19 @@ public class MyArrayList {
             }
         }
     }
+
+    public void set(int index, int value) {
+        items[index] = value;
+    }
+
+    public boolean contains(int value) {
+        for (int c : items) {
+            if (value == c) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
 
 
