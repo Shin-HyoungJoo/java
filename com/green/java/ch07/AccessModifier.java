@@ -10,6 +10,7 @@ public class AccessModifier {
 
     파일명과 똑같은 클래스만 public 붙일 수 있다. 나머지는 디폴트 사용.
      */
+    
     public static void main(String[] args) {
         ModifierTest mt1 = new ModifierTest();
 //        mt1.num1 = 10;

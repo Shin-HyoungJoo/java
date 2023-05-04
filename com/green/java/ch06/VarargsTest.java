@@ -10,6 +10,7 @@ public class VarargsTest {
         System.out.println("sum: " + sum);
     }
 
+
     public static void main(String[] args) {
         sum(1);
         sum(1,2);

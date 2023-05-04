@@ -9,6 +9,7 @@ public class ParamsTest {
         changeNum(num);
         System.out.println(num); //10
 
+
         NumberBox nb2 = new NumberBox();
         changeNum2(nb2);
         System.out.println(nb.num); //20

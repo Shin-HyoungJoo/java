@@ -4,6 +4,7 @@ public class BindingTest3 {
     public static void main(String[] args) {
         Parent3 p = new Child3();
         Child3 c = new Child3();
+
         p.method();
         c.method(5);
     }
